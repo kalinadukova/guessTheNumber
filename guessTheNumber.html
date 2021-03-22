@@ -9,13 +9,23 @@
 </head>
 <body>
     <h1 id="title">Guess The Number Game</h1>
+    <div id="level">
+        <label for="selectLevel" id="levelValue">Select level: </label>
+        <select name="selectLevel" class="selectedLevel">
+            <option value="level1">1-10</option>
+            <option value="level2">1-50</option>
+            <option value="level3">1-100</option>
+        </select>
+        <input type="submit" id="playButton" value="Play">
+    </div>
     <div id="game">
         <h2 id="subtitle">Enter the number: </h2>
         <input type="number" id="userNum">
         <input type="submit" id="button">
+        <div id="triesLeft"></div>
         <div id="output"></div>
-        <div id="result"></div>
     </div>
+    <input type="submit" id="reset" value="reset">
     <script src="guessTheNumber.js"></script>
 </body>
 </html>
