@@ -1,2 +1,2 @@
 # guessTheNumber
-Simply Guess the number game
+Simple Guess the number game
